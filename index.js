@@ -62,6 +62,7 @@ module.exports = {
     "no-unused-vars": "off",
 
     // react 自定义规则
+    "react/prop-types": 0,
     "react/jsx-uses-react": 2,
     "react/no-did-update-set-state": 2,
     "react/no-redundant-should-component-update": 2,
