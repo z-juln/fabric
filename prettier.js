@@ -1,22 +1,24 @@
-'use strict';
+"use strict";
+
+const platform = require("os").platform();
 
 module.exports = {
   singleQuote: true,
-  trailingComma: 'all',
+  trailingComma: "all",
   printWidth: 100,
-  proseWrap: 'never',
-  endOfLine: 'lf',
+  proseWrap: "never",
+  endOfLine: ["darwin", "linux"].includes(platform) ? "lf" : "auto",
   overrides: [
     {
-      files: '.prettierrc',
+      files: ".prettierrc",
       options: {
-        parser: 'json',
+        parser: "json",
       },
     },
     {
-      files: 'document.ejs',
+      files: "document.ejs",
       options: {
-        parser: 'html',
+        parser: "html",
       },
     },
   ],

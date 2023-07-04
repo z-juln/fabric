@@ -43,10 +43,9 @@ module.exports = {
     "prefer-spread": ["warn"],
     "no-extra-semi": ["warn"],
     quotes: ["error", "single"],
-    "linebreak-style": [
-      "warn",
-      ["darwin", "linux"].includes(platform) ? "unix" : "auto",
-    ],
+    "linebreak-style": ["darwin", "linux"].includes(platform)
+      ? ["warn", "unix"]
+      : 0,
     "comma-dangle": "off",
     "arrow-parens": "off",
     "no-alert": "off",
