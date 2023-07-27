@@ -19,7 +19,7 @@ module.exports = {
     "unit-no-unknown": [true, { ignoreUnits: ["rpx"] }],
     "selector-type-no-unknown": null,
     "value-keyword-case": ["lower", { ignoreProperties: ["composes"] }],
-    "alpha-value-notation": "number",
+    "alpha-value-notation": null,
     "color-function-notation": "legacy", // 使用rgba()
   },
   overrides: [
