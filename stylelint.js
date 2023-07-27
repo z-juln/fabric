@@ -1,3 +1,4 @@
+
 "use strict";
 
 module.exports = {
@@ -18,14 +19,16 @@ module.exports = {
     "unit-no-unknown": [true, { ignoreUnits: ["rpx"] }],
     "selector-type-no-unknown": null,
     "value-keyword-case": ["lower", { ignoreProperties: ["composes"] }],
+    "alpha-value-notation": "number",
+    "color-function-notation": "legacy", // 使用rgba()
   },
   overrides: [
     {
-      files: ["*.scss", "**/*.scss"],
+      files: ["*.scss", "**/*.scss", "*.module.scss", "**/*.module.scss"],
       customSyntax: "postcss-scss",
     },
     {
-      files: ["*.less", "**/*.less"],
+      files: ["*.less", "**/*.less", "*.module.less", "**/*.module.less"],
       customSyntax: "postcss-less",
     },
   ],

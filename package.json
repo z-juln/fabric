@@ -1,6 +1,6 @@
 {
   "name": "@juln/fabric",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A collection of configuration files containing prettier, eslint, stylelint",
   "keywords": [
     "eslint",
@@ -36,24 +36,25 @@
     "stylelint.js"
   ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.9.0",
-    "@typescript-eslint/parser": "^5.9.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.23.2",
-    "eslint-plugin-react-hooks": "^2.0.1",
-    "prettier-plugin-organize-imports": "^3.2.2",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-functional": "^5.0.8",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier-plugin-organize-imports": "^3.2.3",
     "prettier-plugin-two-style-order": "^1.0.1",
     "stylelint-config-css-modules": "^4.2.0",
     "stylelint-config-prettier": "^9.0.5",
-    "stylelint-config-standard": "^33.0.0",
+    "stylelint-config-standard": "^34.0.0",
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0"
   },
   "devDependencies": {},
   "peerDependencies": {
     "eslint": "^7.0.0",
-    "prettier": "^2.8.8",
-    "stylelint": "^15.6.2",
-    "typescript": "^4.2.0"
+    "prettier": "^2.0.0",
+    "stylelint": "^15.0.0",
+    "typescript": "^4.0.0"
   }
 }
